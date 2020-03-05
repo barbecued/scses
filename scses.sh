@@ -26,8 +26,8 @@ done
 column1="%-20s" # spaces before column 2 starts
 column2="%-20s" # spaces before column 2 startsi
 
-
-
+echo "Osds overflowing db/journaling onto slow disks (slow_used_bytes)"
+grep -ri slow_used_bytes | grep -v "\:\ 0\,"
 
 
 
